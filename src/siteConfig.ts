@@ -5,40 +5,40 @@ import type {
 } from "@/types.ts";
 
 export const SITE: SiteConfiguration = {
-  title: "Barebones",
+  title: "semistructured.ai",
   description:
-    "A barebones starter theme. Built with Astro, Tailwind CSS, and Markdown.",
-  href: "https://barebones.superwebthemes.com",
-  author: "SuperWeb Development Inc.",
-  locale: "en-CA",
+    "AI safety, controls, governance, and process",
+  href: "https://www.semistructured.ai",
+  author: "semistructured.ai",
+  locale: "en-US",
 };
 
 export const NAV_LINKS: NavigationLinks = {
-  blog: {
-    path: "/blog",
-    label: "Blog",
+  about: {
+    path: "/about",
+    label: "About",
   },
-  projects: {
-    path: "/projects",
-    label: "Projects",
-  },
-  documentation: {
-    path: "https://docs.superwebthemes.com",
-    label: "Documentation",
-  },
+  // projects: {
+  //   path: "/projects",
+  //   label: "Projects",
+  // },
 };
 
 export const SOCIAL_LINKS: SocialLinks = {
-  email: {
-    label: "Email",
-    href: "mailto:ttl@trevortylerlee.com",
+  linkedin: {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/richard-whaling-a2868010b/",
+  },
+  bluesky: {
+    label: "Bluesky",
+    href: "https://bsky.app/profile/r.whal.ing",
   },
   github: {
     label: "GitHub",
-    href: "https://github.com/trevortylerlee",
+    href: "https://github.com/rwhaling",
   },
-  twitter: {
-    label: "X (formerly Twitter)",
-    href: "https://twitter.com/boogerbuttcheek",
+  instagram: {
+    label: "Instagram",
+    href: "https://www.instagram.com/r__whaling",
   },
 };
